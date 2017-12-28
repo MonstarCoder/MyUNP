@@ -1,4 +1,5 @@
 #include	"unp.h"
+#include "sigchldwaitpid.c"
 
 int
 main(int argc, char **argv)
