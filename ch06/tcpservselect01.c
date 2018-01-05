@@ -1,4 +1,3 @@
-/* include fig01 */
 #include	"unp.h"
 
 int
