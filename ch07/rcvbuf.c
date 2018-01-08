@@ -1,8 +1,7 @@
 #include	"unp.h"
 #include	<netinet/tcp.h>		/* for TCP_MAXSEG */
 
-int
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int					sockfd, rcvbuf, mss;
 	socklen_t			len;
