@@ -1,5 +1,8 @@
 /* include serv01 */
 #include	"unp.h"
+#include "web_child.c"
+#include "sig_chld_waitpid.c"
+#include "pr_cpu_time.c"
 
 int
 main(int argc, char **argv)
